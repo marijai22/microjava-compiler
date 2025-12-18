@@ -1,0 +1,26 @@
+// Test301
+
+program test301
+
+int niz[];
+int niz1[];
+set s1, s2, s3;
+int x;
+	
+{
+
+	int fun(int a, int b){
+		return 2;
+	}
+	
+	void main()
+	{
+		print(5);
+		print(eol);
+		x = fun(57, 2);
+		x = -6;
+	}
+	
+}
+
+

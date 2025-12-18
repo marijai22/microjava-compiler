@@ -1,0 +1,146 @@
+INFO  17:05:59,232 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:05:59,303 - #2 program
+INFO  17:05:59,303 - #43 Test
+INFO  17:05:59,303 - #43 set
+INFO  17:05:59,306 - #43 s1
+INFO  17:05:59,306 - #6 ;
+INFO  17:05:59,307 - #5 const
+INFO  17:05:59,308 - #43 int
+INFO  17:05:59,308 - #43 pi
+INFO  17:05:59,308 - #7 =
+INFO  17:05:59,308 - #44 4
+INFO  17:05:59,308 - #6 ;
+INFO  17:05:59,310 - #3 {
+INFO  17:05:59,312 - #11 void
+INFO  17:05:59,312 - #43 main
+INFO  17:05:59,313 - #12 (
+INFO  17:05:59,313 - #13 )
+INFO  17:05:59,314 - #3 {
+INFO  17:05:59,316 - #43 s1
+INFO  17:05:59,317 - #7 =
+INFO  17:05:59,317 - #21 new
+INFO  17:05:59,319 - #43 int
+INFO  17:05:59,320 - #9 [
+INFO  17:05:59,320 - #44 2
+INFO  17:05:59,320 - #10 ]
+INFO  17:05:59,322 - #6 ;
+INFO  17:05:59,322 - #17 print
+INFO  17:05:59,322 - #12 (
+INFO  17:05:59,323 - #43 s1
+INFO  17:05:59,323 - #13 )
+INFO  17:05:59,323 - #6 ;
+INFO  17:05:59,323 - #4 }
+INFO  17:05:59,323 - #4 }
+INFO  17:05:59,333 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_var(
+      ConVarDecList_e(
+      ) [ConVarDecList_e]
+      VarDeclList_v(
+        Type(
+         set
+        ) [Type]
+        VarDecl_var(
+         s1
+        ) [VarDecl_var]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       pi
+        Const_n(
+         4
+        ) [Const_n]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator_v(
+               s1
+              ) [Designator_v]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorList_new_coll(
+                          Type(
+                           int
+                          ) [Type]
+                          Expr_a(
+                            AddopTermList_t(
+                              Term(
+                                MulOpFact_f(
+                                  Factor_f(
+                                    FactorList_n(
+                                     2
+                                    ) [FactorList_n]
+                                  ) [Factor_f]
+                                ) [MulOpFact_f]
+                              ) [Term]
+                            ) [AddopTermList_t]
+                          ) [Expr_a]
+                        ) [FactorList_new_coll]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+        Statement_pre(
+          Expr_a(
+            AddopTermList_t(
+              Term(
+                MulOpFact_f(
+                  Factor_f(
+                    FactorList_var(
+                      Designator_v(
+                       s1
+                      ) [Designator_v]
+                    ) [FactorList_var]
+                  ) [Factor_f]
+                ) [MulOpFact_f]
+              ) [Term]
+            ) [AddopTermList_t]
+          ) [Expr_a]
+        ) [Statement_pre]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  17:05:59,333 - =====================================================================
+ERROR 17:05:59,344 - Neadekvatna dodela vrednosti u promenljivu tipa set s1 na liniji 9
+INFO  17:05:59,344 - =====================================================================
+ERROR 17:05:59,345 - Parsiranje NIJE uspesno zavrseno!

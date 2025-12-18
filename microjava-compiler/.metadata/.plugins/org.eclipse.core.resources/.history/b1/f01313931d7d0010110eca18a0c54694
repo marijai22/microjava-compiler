@@ -1,0 +1,69 @@
+// Test301
+
+program test301
+
+int niz[];
+int niz1[];
+set s1, s2, s3;
+	
+{
+	void main()
+	{
+		niz = new int[3];
+		niz[0] = 1;
+		niz[1] = 2;
+		niz[2] = 3;
+		
+		niz1 = new int[3];
+		niz1[0] = 4;
+		niz1[1] = 5;
+		niz1[2] = 6;
+		
+		s1 = new set[5];
+		addAll(s1, niz);
+		addAll(s1, niz1);
+		
+		print(s1);
+		print(eol);
+	}
+}
+
+
+// Test301
+
+program test301
+
+int niz[];
+int niz1[];
+set s1, s2, s3;
+	
+{
+	void main()
+	{
+		niz = new int[3];
+		niz[0] = 1;
+		niz[1] = 2;
+		niz[2] = 3;
+		
+		niz1 = new int[3];
+		niz1[0] = 4;
+		niz1[1] = 5;
+		niz1[2] = 6;
+		
+		s1 = new set[5];
+		addAll(s1, niz);
+		addAll(s1, niz1);
+		
+		s2 = new set[2];
+		add(s2, 4);
+		add(s2, 6);
+		
+		s3 = new set[10];
+		s3 = s1 union s2;
+		
+		print(s3);
+		print(eol);
+	}
+}
+
+

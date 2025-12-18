@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MJCompiler/test/test301Sava&apos; to &apos;test301Sava.mj&apos;" description="Rename resource &apos;test301Sava&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="test/test301Sava" name="test301Sava.mj" stamp="1745684479271" updateReferences="true"/>
+</session>

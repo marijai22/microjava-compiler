@@ -1,0 +1,145 @@
+INFO  21:51:03,938 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:51:03,996 - #2 program
+INFO  21:51:03,996 - #43 Test
+INFO  21:51:03,996 - #5 const
+INFO  21:51:03,998 - #43 int
+INFO  21:51:03,998 - #43 pi
+INFO  21:51:03,999 - #7 =
+INFO  21:51:03,999 - #44 4
+INFO  21:51:03,999 - #6 ;
+INFO  21:51:04,002 - #3 {
+INFO  21:51:04,003 - #11 void
+INFO  21:51:04,003 - #43 main
+INFO  21:51:04,004 - #12 (
+INFO  21:51:04,004 - #13 )
+INFO  21:51:04,005 - #43 set
+INFO  21:51:04,007 - #43 s1
+INFO  21:51:04,007 - #6 ;
+INFO  21:51:04,008 - #3 {
+INFO  21:51:04,009 - #43 s1
+INFO  21:51:04,010 - #7 =
+INFO  21:51:04,011 - #21 new
+INFO  21:51:04,012 - #43 set
+INFO  21:51:04,013 - #9 [
+INFO  21:51:04,013 - #44 5
+INFO  21:51:04,013 - #10 ]
+INFO  21:51:04,016 - #6 ;
+INFO  21:51:04,017 - #17 print
+INFO  21:51:04,017 - #12 (
+INFO  21:51:04,017 - #43 s1
+INFO  21:51:04,017 - #13 )
+INFO  21:51:04,018 - #6 ;
+INFO  21:51:04,018 - #4 }
+INFO  21:51:04,018 - #4 }
+INFO  21:51:04,024 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       pi
+        Const_n(
+         4
+        ) [Const_n]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        VarDeclList_v(
+          Type(
+           set
+          ) [Type]
+          VarDecl_var(
+           s1
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator_v(
+               s1
+              ) [Designator_v]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorList_new_coll(
+                          Type(
+                           set
+                          ) [Type]
+                          Expr_a(
+                            AddopTermList_t(
+                              Term(
+                                MulOpFact_f(
+                                  Factor_f(
+                                    FactorList_n(
+                                     5
+                                    ) [FactorList_n]
+                                  ) [Factor_f]
+                                ) [MulOpFact_f]
+                              ) [Term]
+                            ) [AddopTermList_t]
+                          ) [Expr_a]
+                        ) [FactorList_new_coll]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+        Statement_pre(
+          Expr_a(
+            AddopTermList_t(
+              Term(
+                MulOpFact_f(
+                  Factor_f(
+                    FactorList_var(
+                      Designator_v(
+                       s1
+                      ) [Designator_v]
+                    ) [FactorList_var]
+                  ) [Factor_f]
+                ) [MulOpFact_f]
+              ) [Term]
+            ) [AddopTermList_t]
+          ) [Expr_a]
+        ) [Statement_pre]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  21:51:04,025 - =====================================================================
+INFO  21:51:04,034 - =====================================================================
+INFO  21:51:04,038 - Generisanje uspesno zavrseno!

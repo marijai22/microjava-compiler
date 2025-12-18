@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.SStruct"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ActParsCounter"/>
+    <fullyQualifiedTypeName name="rs.etf.pp1.symboltable.Tab"/>
+    <fullyQualifiedTypeName name="java_cup.Main"/>
+    <fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Obj"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Condition_c"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ElseStatement_e"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ElseNonTerm"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ElseStatement_els"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DoNonterminal"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Statement_dw"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Statement_br"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Statement_cn"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.WhileNonterminal"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.WhileParams_e"/>
+    <fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Struct"/>
+    <fullyQualifiedTypeName name="rs.etf.pp1.mj.runtime.Code"/>
+</qualifiedTypeNameHistroy>

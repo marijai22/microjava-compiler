@@ -1,0 +1,231 @@
+INFO  17:39:43,331 - Compiling source file: C:\Users\Dimitrije Ignjatovic\PP - mozda finalna\MJCompiler\test\program.mj
+INFO  17:39:43,406 - #2 program
+INFO  17:39:43,406 - #43 test301
+INFO  17:39:43,407 - #5 const
+INFO  17:39:43,409 - #43 int
+INFO  17:39:43,409 - #43 nula
+INFO  17:39:43,409 - #7 =
+INFO  17:39:43,410 - #44 0
+INFO  17:39:43,410 - #6 ;
+INFO  17:39:43,412 - #5 const
+INFO  17:39:43,413 - #43 int
+INFO  17:39:43,413 - #43 jedan
+INFO  17:39:43,413 - #7 =
+INFO  17:39:43,413 - #44 1
+INFO  17:39:43,413 - #6 ;
+INFO  17:39:43,414 - #5 const
+INFO  17:39:43,414 - #43 int
+INFO  17:39:43,414 - #43 pet
+INFO  17:39:43,414 - #7 =
+INFO  17:39:43,414 - #44 5
+INFO  17:39:43,414 - #6 ;
+INFO  17:39:43,414 - #5 const
+INFO  17:39:43,418 - #43 int
+INFO  17:39:43,418 - #43 pet
+INFO  17:39:43,418 - #7 =
+INFO  17:39:43,418 - #44 55
+INFO  17:39:43,419 - #6 ;
+INFO  17:39:43,419 - #43 int
+INFO  17:39:43,419 - #43 niz
+INFO  17:39:43,419 - #9 [
+INFO  17:39:43,419 - #10 ]
+INFO  17:39:43,419 - #6 ;
+INFO  17:39:43,421 - #43 char
+INFO  17:39:43,421 - #43 nizch
+INFO  17:39:43,422 - #9 [
+INFO  17:39:43,422 - #10 ]
+INFO  17:39:43,422 - #6 ;
+INFO  17:39:43,422 - #43 int
+INFO  17:39:43,422 - #43 a
+INFO  17:39:43,422 - #6 ;
+INFO  17:39:43,423 - #43 set
+INFO  17:39:43,423 - #43 s1
+INFO  17:39:43,423 - #8 ,
+INFO  17:39:43,423 - #43 s2
+INFO  17:39:43,423 - #8 ,
+INFO  17:39:43,423 - #43 s3
+INFO  17:39:43,423 - #6 ;
+INFO  17:39:43,424 - #3 {
+INFO  17:39:43,424 - #11 void
+INFO  17:39:43,425 - #43 main
+INFO  17:39:43,425 - #12 (
+INFO  17:39:43,426 - #13 )
+INFO  17:39:43,427 - #43 int
+INFO  17:39:43,431 - #43 bodovi
+INFO  17:39:43,431 - #6 ;
+INFO  17:39:43,432 - #43 int
+INFO  17:39:43,432 - #43 temp
+INFO  17:39:43,432 - #6 ;
+INFO  17:39:43,433 - #3 {
+INFO  17:39:43,433 - #4 }
+INFO  17:39:43,435 - #4 }
+INFO  17:39:43,438 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_var(
+      ConVarDecList_var(
+        ConVarDecList_var(
+          ConVarDecList_con(
+            ConVarDecList_con(
+              ConVarDecList_con(
+                ConVarDecList_con(
+                  ConVarDecList_e(
+                  ) [ConVarDecList_e]
+                  ConstDeclList(
+                    Type(
+                     int
+                    ) [Type]
+                    ConstDecl(
+                     nula
+                      Const_n(
+                       0
+                      ) [Const_n]
+                    ) [ConstDecl]
+                    ConstDeclMore_e(
+                    ) [ConstDeclMore_e]
+                  ) [ConstDeclList]
+                ) [ConVarDecList_con]
+                ConstDeclList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDecl(
+                   jedan
+                    Const_n(
+                     1
+                    ) [Const_n]
+                  ) [ConstDecl]
+                  ConstDeclMore_e(
+                  ) [ConstDeclMore_e]
+                ) [ConstDeclList]
+              ) [ConVarDecList_con]
+              ConstDeclList(
+                Type(
+                 int
+                ) [Type]
+                ConstDecl(
+                 pet
+                  Const_n(
+                   5
+                  ) [Const_n]
+                ) [ConstDecl]
+                ConstDeclMore_e(
+                ) [ConstDeclMore_e]
+              ) [ConstDeclList]
+            ) [ConVarDecList_con]
+            ConstDeclList(
+              Type(
+               int
+              ) [Type]
+              ConstDecl(
+               pet
+                Const_n(
+                 55
+                ) [Const_n]
+              ) [ConstDecl]
+              ConstDeclMore_e(
+              ) [ConstDeclMore_e]
+            ) [ConstDeclList]
+          ) [ConVarDecList_con]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_arr(
+             niz
+            ) [VarDecl_arr]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList_v]
+        ) [ConVarDecList_var]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_arr(
+           nizch
+          ) [VarDecl_arr]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [ConVarDecList_var]
+      VarDeclList_v(
+        Type(
+         int
+        ) [Type]
+        VarDecl_var(
+         a
+        ) [VarDecl_var]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    VarDeclList_v(
+      Type(
+       set
+      ) [Type]
+      VarDecl_var(
+       s1
+      ) [VarDecl_var]
+      VarDeclMore_v(
+        VarDecl_var(
+         s2
+        ) [VarDecl_var]
+        VarDeclMore_v(
+          VarDecl_var(
+           s3
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_v]
+      ) [VarDeclMore_v]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_e(
+          ) [NeedVarDeclList_e]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             bodovi
+            ) [VarDecl_var]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           int
+          ) [Type]
+          VarDecl_var(
+           temp
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  17:39:43,439 - =====================================================================
+ERROR 17:39:43,461 - Dvostruka definicija konstante: pet na liniji 8
+INFO  17:39:43,462 - =====================================================================
+ERROR 17:39:43,463 - Parsiranje NIJE uspesno zavrseno!

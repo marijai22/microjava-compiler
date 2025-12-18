@@ -1,0 +1,52 @@
+INFO  23:03:36,559 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:03:36,689 - #2 program
+INFO  23:03:36,689 - #43 Test
+INFO  23:03:36,689 - #43 set
+INFO  23:03:36,691 - #43 s1
+INFO  23:03:36,698 - #6 ;
+INFO  23:03:36,699 - #3 {
+INFO  23:03:36,699 - #11 void
+INFO  23:03:36,706 - #43 main
+INFO  23:03:36,706 - #12 (
+INFO  23:03:36,707 - #13 )
+INFO  23:03:36,713 - #3 {
+INFO  23:03:36,721 - #4 }
+INFO  23:03:36,721 - #4 }
+INFO  23:03:36,726 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    VarDeclList_v(
+      Type(
+       set
+      ) [Type]
+      VarDecl_var(
+       s1
+      ) [VarDecl_var]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  23:03:36,727 - =====================================================================
+INFO  23:03:36,747 - =====================================================================

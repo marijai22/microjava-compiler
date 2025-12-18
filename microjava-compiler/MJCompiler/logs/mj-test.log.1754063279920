@@ -1,0 +1,61 @@
+INFO  17:46:23,947 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:46:24,014 - #2 program
+INFO  17:46:24,014 - #43 test301
+INFO  17:46:24,014 - #43 int
+INFO  17:46:24,016 - #9 [
+ERROR 17:46:24,017 - 
+Sintaksna greska na liniji 5
+INFO  17:46:24,017 - #10 ]
+INFO  17:46:24,017 - #43 niz
+INFO  17:46:24,017 - #6 ;
+INFO  17:46:24,018 - #43 set
+INFO  17:46:24,018 - #43 s1
+INFO  17:46:24,018 - #8 ,
+ERROR 17:46:24,022 - Oporavak od greske u DS. Linija: 5
+INFO  17:46:24,024 - #43 s2
+INFO  17:46:24,024 - #8 ,
+INFO  17:46:24,024 - #43 s3
+INFO  17:46:24,024 - #6 ;
+INFO  17:46:24,025 - #3 {
+INFO  17:46:24,026 - #43 niz
+INFO  17:46:24,027 - #7 =
+ERROR 17:46:24,027 - 
+Sintaksna greska na liniji 9
+INFO  17:46:24,027 - #21 new
+INFO  17:46:24,027 - #43 int
+INFO  17:46:24,027 - #9 [
+INFO  17:46:24,028 - #44 3
+INFO  17:46:24,028 - #10 ]
+INFO  17:46:24,028 - #6 ;
+INFO  17:46:24,028 - #43 niz1
+INFO  17:46:24,028 - #7 =
+INFO  17:46:24,028 - #21 new
+INFO  17:46:24,028 - #43 int
+INFO  17:46:24,028 - #9 [
+INFO  17:46:24,028 - #44 3
+INFO  17:46:24,028 - #10 ]
+INFO  17:46:24,029 - #6 ;
+INFO  17:46:24,029 - #43 s1
+INFO  17:46:24,029 - #7 =
+INFO  17:46:24,029 - #21 new
+INFO  17:46:24,029 - #43 set
+INFO  17:46:24,029 - #9 [
+INFO  17:46:24,029 - #44 5
+INFO  17:46:24,029 - #10 ]
+INFO  17:46:24,029 - #6 ;
+INFO  17:46:24,030 - #43 addAll
+INFO  17:46:24,030 - #12 (
+INFO  17:46:24,030 - #43 s1
+INFO  17:46:24,030 - #8 ,
+INFO  17:46:24,030 - #43 niz
+INFO  17:46:24,030 - #13 )
+INFO  17:46:24,030 - #6 ;
+INFO  17:46:24,030 - #43 addAll
+INFO  17:46:24,030 - #12 (
+INFO  17:46:24,031 - #43 s1
+INFO  17:46:24,031 - #8 ,
+INFO  17:46:24,032 - #43 niz1
+INFO  17:46:24,032 - #13 )
+INFO  17:46:24,032 - #6 ;
+INFO  17:46:24,032 - #4 }
+ERROR 17:46:24,032 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

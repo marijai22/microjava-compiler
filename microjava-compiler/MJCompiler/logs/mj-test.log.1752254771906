@@ -1,0 +1,33 @@
+INFO  19:25:45,614 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:25:45,677 - #2 program
+INFO  19:25:45,677 - #43 Test
+INFO  19:25:45,677 - #43 set
+INFO  19:25:45,680 - #43 s1
+INFO  19:25:45,681 - #6 ;
+INFO  19:25:45,682 - #3 {
+INFO  19:25:45,682 - #4 }
+INFO  19:25:45,686 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    VarDeclList_v(
+      Type(
+       set
+      ) [Type]
+      VarDecl_var(
+       s1
+      ) [VarDecl_var]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  19:25:45,686 - =====================================================================
+ERROR 19:25:45,702 - Program nema adekvatnu main metodu(dvostruka definicija, povratna vrednost nije int ili postoje argumenti). na liniji 1
+INFO  19:25:45,702 - =====================================================================
+ERROR 19:25:45,703 - Parsiranje NIJE uspesno zavrseno!

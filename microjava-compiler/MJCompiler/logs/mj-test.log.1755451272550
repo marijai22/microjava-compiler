@@ -1,0 +1,248 @@
+INFO  19:15:37,663 - Compiling source file: C:\Users\Dimitrije Ignjatovic\PP - mozda finalna\MJCompiler\test\program.mj
+INFO  19:15:37,731 - #2 program
+INFO  19:15:37,731 - #43 test301
+INFO  19:15:37,731 - #43 int
+INFO  19:15:37,733 - #43 niz
+INFO  19:15:37,734 - #9 [
+INFO  19:15:37,734 - #10 ]
+INFO  19:15:37,734 - #6 ;
+INFO  19:15:37,737 - #43 int
+INFO  19:15:37,737 - #43 niz1
+INFO  19:15:37,737 - #9 [
+INFO  19:15:37,737 - #10 ]
+INFO  19:15:37,738 - #6 ;
+INFO  19:15:37,738 - #43 set
+INFO  19:15:37,738 - #43 s1
+INFO  19:15:37,738 - #8 ,
+INFO  19:15:37,738 - #43 s2
+INFO  19:15:37,739 - #8 ,
+INFO  19:15:37,739 - #43 s3
+INFO  19:15:37,739 - #6 ;
+INFO  19:15:37,739 - #3 {
+INFO  19:15:37,740 - #43 int
+INFO  19:15:37,741 - #43 fun
+INFO  19:15:37,742 - #12 (
+INFO  19:15:37,743 - #43 int
+INFO  19:15:37,743 - #43 a
+INFO  19:15:37,743 - #8 ,
+INFO  19:15:37,743 - #43 int
+INFO  19:15:37,744 - #43 b
+INFO  19:15:37,744 - #13 )
+INFO  19:15:37,745 - #3 {
+INFO  19:15:37,748 - #15 return
+INFO  19:15:37,751 - #44 2
+INFO  19:15:37,751 - #6 ;
+INFO  19:15:37,753 - #4 }
+INFO  19:15:37,754 - #11 void
+INFO  19:15:37,756 - #43 main
+INFO  19:15:37,756 - #12 (
+INFO  19:15:37,756 - #13 )
+INFO  19:15:37,757 - #3 {
+INFO  19:15:37,757 - #17 print
+INFO  19:15:37,757 - #12 (
+INFO  19:15:37,757 - #44 5
+INFO  19:15:37,757 - #13 )
+INFO  19:15:37,757 - #6 ;
+INFO  19:15:37,757 - #17 print
+INFO  19:15:37,758 - #12 (
+INFO  19:15:37,758 - #43 eol
+INFO  19:15:37,758 - #13 )
+INFO  19:15:37,758 - #6 ;
+INFO  19:15:37,758 - #43 fun
+INFO  19:15:37,758 - #12 (
+INFO  19:15:37,758 - #44 57
+INFO  19:15:37,759 - #13 )
+INFO  19:15:37,761 - #6 ;
+INFO  19:15:37,762 - #4 }
+INFO  19:15:37,762 - #4 }
+INFO  19:15:37,765 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_var(
+      ConVarDecList_var(
+        ConVarDecList_e(
+        ) [ConVarDecList_e]
+        VarDeclList_v(
+          Type(
+           int
+          ) [Type]
+          VarDecl_arr(
+           niz
+          ) [VarDecl_arr]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [ConVarDecList_var]
+      VarDeclList_v(
+        Type(
+         int
+        ) [Type]
+        VarDecl_arr(
+         niz1
+        ) [VarDecl_arr]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    VarDeclList_v(
+      Type(
+       set
+      ) [Type]
+      VarDecl_var(
+       s1
+      ) [VarDecl_var]
+      VarDeclMore_v(
+        VarDecl_var(
+         s2
+        ) [VarDecl_var]
+        VarDeclMore_v(
+          VarDecl_var(
+           s3
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_v]
+      ) [VarDeclMore_v]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_t(
+            Type(
+             int
+            ) [Type]
+           fun
+          ) [ReturnType_t]
+          FormPars_fmore(
+            FormPar_var(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormPar_var]
+            FormParsMore_c(
+              FormPar_var(
+                Type(
+                 int
+                ) [Type]
+               b
+              ) [FormPar_var]
+              FormParsMore_e(
+              ) [FormParsMore_e]
+            ) [FormParsMore_c]
+          ) [FormPars_fmore]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_res(
+            Expr_a(
+              AddopTermList_t(
+                Term(
+                  MulOpFact_f(
+                    Factor_f(
+                      FactorList_n(
+                       2
+                      ) [FactorList_n]
+                    ) [Factor_f]
+                  ) [MulOpFact_f]
+                ) [Term]
+              ) [AddopTermList_t]
+            ) [Expr_a]
+          ) [Statement_res]
+        ) [StatementList_s]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_s(
+          StatementList_s(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_pre(
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorList_n(
+                         5
+                        ) [FactorList_n]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [Statement_pre]
+          ) [StatementList_s]
+          Statement_pre(
+            Expr_a(
+              AddopTermList_t(
+                Term(
+                  MulOpFact_f(
+                    Factor_f(
+                      FactorList_var(
+                        Designator_v(
+                         eol
+                        ) [Designator_v]
+                      ) [FactorList_var]
+                    ) [Factor_f]
+                  ) [MulOpFact_f]
+                ) [Term]
+              ) [AddopTermList_t]
+            ) [Expr_a]
+          ) [Statement_pre]
+        ) [StatementList_s]
+        Statement_ds(
+          DesignatorStatement_dp(
+            Designator_v(
+             fun
+            ) [Designator_v]
+            ParamsAct_rec(
+              ActParNewList(
+              ) [ActParNewList]
+              Param(
+                Expr_a(
+                  AddopTermList_t(
+                    Term(
+                      MulOpFact_f(
+                        Factor_f(
+                          FactorList_n(
+                           57
+                          ) [FactorList_n]
+                        ) [Factor_f]
+                      ) [MulOpFact_f]
+                    ) [Term]
+                  ) [AddopTermList_t]
+                ) [Expr_a]
+              ) [Param]
+              ActParMore_e(
+              ) [ActParMore_e]
+            ) [ParamsAct_rec]
+          ) [DesignatorStatement_dp]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  19:15:37,765 - =====================================================================
+ERROR 19:15:37,783 - [Greska: broj parametara] Nekompatibilnost stvarnih argumenata i formalnih parametara, pri pozivu metode: fun na liniji 19
+INFO  19:15:37,783 - =====================================================================
+ERROR 19:15:37,784 - Parsiranje NIJE uspesno zavrseno!

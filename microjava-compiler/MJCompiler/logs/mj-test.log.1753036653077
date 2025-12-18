@@ -1,0 +1,303 @@
+INFO  19:34:18,168 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:34:18,255 - #2 program
+INFO  19:34:18,256 - #43 Test
+INFO  19:34:18,256 - #5 const
+INFO  19:34:18,257 - #43 int
+INFO  19:34:18,257 - #43 pi
+INFO  19:34:18,258 - #7 =
+INFO  19:34:18,258 - #44 4
+INFO  19:34:18,258 - #6 ;
+INFO  19:34:18,260 - #43 int
+INFO  19:34:18,261 - #43 niz
+INFO  19:34:18,261 - #9 [
+INFO  19:34:18,261 - #10 ]
+INFO  19:34:18,261 - #6 ;
+INFO  19:34:18,262 - #3 {
+INFO  19:34:18,262 - #11 void
+INFO  19:34:18,263 - #43 main
+INFO  19:34:18,263 - #12 (
+INFO  19:34:18,263 - #13 )
+INFO  19:34:18,265 - #43 set
+INFO  19:34:18,267 - #43 s1
+INFO  19:34:18,268 - #6 ;
+INFO  19:34:18,272 - #3 {
+INFO  19:34:18,272 - #43 niz
+INFO  19:34:18,273 - #7 =
+INFO  19:34:18,274 - #21 new
+INFO  19:34:18,274 - #43 int
+INFO  19:34:18,275 - #9 [
+INFO  19:34:18,275 - #44 3
+INFO  19:34:18,275 - #10 ]
+INFO  19:34:18,276 - #6 ;
+INFO  19:34:18,277 - #43 niz
+INFO  19:34:18,277 - #9 [
+INFO  19:34:18,278 - #44 0
+INFO  19:34:18,278 - #10 ]
+INFO  19:34:18,278 - #7 =
+INFO  19:34:18,278 - #44 5
+INFO  19:34:18,278 - #6 ;
+INFO  19:34:18,278 - #43 niz
+INFO  19:34:18,278 - #9 [
+INFO  19:34:18,279 - #44 1
+INFO  19:34:18,279 - #10 ]
+INFO  19:34:18,279 - #7 =
+INFO  19:34:18,279 - #44 5
+INFO  19:34:18,279 - #6 ;
+INFO  19:34:18,279 - #43 niz
+INFO  19:34:18,279 - #9 [
+INFO  19:34:18,279 - #44 2
+INFO  19:34:18,279 - #10 ]
+INFO  19:34:18,279 - #7 =
+INFO  19:34:18,280 - #44 10
+INFO  19:34:18,280 - #6 ;
+INFO  19:34:18,280 - #17 print
+INFO  19:34:18,280 - #12 (
+INFO  19:34:18,280 - #43 niz
+INFO  19:34:18,280 - #9 [
+INFO  19:34:18,280 - #44 0
+INFO  19:34:18,280 - #10 ]
+INFO  19:34:18,280 - #8 ,
+INFO  19:34:18,281 - #43 niz
+ERROR 19:34:18,281 - 
+Sintaksna greska na liniji 12
+INFO  19:34:18,281 - #9 [
+INFO  19:34:18,281 - #44 1
+INFO  19:34:18,281 - #10 ]
+INFO  19:34:18,283 - #8 ,
+INFO  19:34:18,283 - #43 niz
+INFO  19:34:18,283 - #9 [
+INFO  19:34:18,283 - #44 2
+INFO  19:34:18,283 - #10 ]
+INFO  19:34:18,283 - #13 )
+INFO  19:34:18,283 - #6 ;
+INFO  19:34:18,283 - #4 }
+INFO  19:34:18,283 - #4 }
+ERROR 19:34:18,287 - Oporavak od greske u DS. Linija: 20
+INFO  19:34:18,296 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_con(
+      ConVarDecList_e(
+      ) [ConVarDecList_e]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Const_n(
+           4
+          ) [Const_n]
+        ) [ConstDecl]
+        ConstDeclMore_e(
+        ) [ConstDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDecList_con]
+    VarDeclList_v(
+      Type(
+       int
+      ) [Type]
+      VarDecl_arr(
+       niz
+      ) [VarDecl_arr]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        VarDeclList_v(
+          Type(
+           set
+          ) [Type]
+          VarDecl_var(
+           s1
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_s(
+          StatementList_s(
+            StatementList_s(
+              StatementList_s(
+                StatementList_e(
+                ) [StatementList_e]
+                Statement_ds(
+                  DesignatorStatement_ass(
+                    Designator_v(
+                     niz
+                    ) [Designator_v]
+                    Assignop(
+                    ) [Assignop]
+                    Expr_a(
+                      AddopTermList_t(
+                        Term(
+                          MulOpFact_f(
+                            Factor_f(
+                              FactorList_new_coll(
+                                Type(
+                                 int
+                                ) [Type]
+                                Expr_a(
+                                  AddopTermList_t(
+                                    Term(
+                                      MulOpFact_f(
+                                        Factor_f(
+                                          FactorList_n(
+                                           3
+                                          ) [FactorList_n]
+                                        ) [Factor_f]
+                                      ) [MulOpFact_f]
+                                    ) [Term]
+                                  ) [AddopTermList_t]
+                                ) [Expr_a]
+                              ) [FactorList_new_coll]
+                            ) [Factor_f]
+                          ) [MulOpFact_f]
+                        ) [Term]
+                      ) [AddopTermList_t]
+                    ) [Expr_a]
+                  ) [DesignatorStatement_ass]
+                ) [Statement_ds]
+              ) [StatementList_s]
+              Statement_ds(
+                DesignatorStatement_ass(
+                  Designator_arr(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    Expr_a(
+                      AddopTermList_t(
+                        Term(
+                          MulOpFact_f(
+                            Factor_f(
+                              FactorList_n(
+                               0
+                              ) [FactorList_n]
+                            ) [Factor_f]
+                          ) [MulOpFact_f]
+                        ) [Term]
+                      ) [AddopTermList_t]
+                    ) [Expr_a]
+                  ) [Designator_arr]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_a(
+                    AddopTermList_t(
+                      Term(
+                        MulOpFact_f(
+                          Factor_f(
+                            FactorList_n(
+                             5
+                            ) [FactorList_n]
+                          ) [Factor_f]
+                        ) [MulOpFact_f]
+                      ) [Term]
+                    ) [AddopTermList_t]
+                  ) [Expr_a]
+                ) [DesignatorStatement_ass]
+              ) [Statement_ds]
+            ) [StatementList_s]
+            Statement_ds(
+              DesignatorStatement_ass(
+                Designator_arr(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  Expr_a(
+                    AddopTermList_t(
+                      Term(
+                        MulOpFact_f(
+                          Factor_f(
+                            FactorList_n(
+                             1
+                            ) [FactorList_n]
+                          ) [Factor_f]
+                        ) [MulOpFact_f]
+                      ) [Term]
+                    ) [AddopTermList_t]
+                  ) [Expr_a]
+                ) [Designator_arr]
+                Assignop(
+                ) [Assignop]
+                Expr_a(
+                  AddopTermList_t(
+                    Term(
+                      MulOpFact_f(
+                        Factor_f(
+                          FactorList_n(
+                           5
+                          ) [FactorList_n]
+                        ) [Factor_f]
+                      ) [MulOpFact_f]
+                    ) [Term]
+                  ) [AddopTermList_t]
+                ) [Expr_a]
+              ) [DesignatorStatement_ass]
+            ) [Statement_ds]
+          ) [StatementList_s]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator_arr(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                Expr_a(
+                  AddopTermList_t(
+                    Term(
+                      MulOpFact_f(
+                        Factor_f(
+                          FactorList_n(
+                           2
+                          ) [FactorList_n]
+                        ) [Factor_f]
+                      ) [MulOpFact_f]
+                    ) [Term]
+                  ) [AddopTermList_t]
+                ) [Expr_a]
+              ) [Designator_arr]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorList_n(
+                         10
+                        ) [FactorList_n]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+        Statement_ds(
+          DesignatorStatement_err(
+          ) [DesignatorStatement_err]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  19:34:18,296 - =====================================================================
+INFO  19:34:18,309 - =====================================================================
+ERROR 19:34:18,309 - Parsiranje NIJE uspesno zavrseno!

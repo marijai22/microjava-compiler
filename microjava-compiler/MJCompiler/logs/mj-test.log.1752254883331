@@ -1,0 +1,53 @@
+INFO  19:26:11,918 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:26:11,984 - #2 program
+INFO  19:26:11,984 - #43 Test
+INFO  19:26:11,984 - #43 set
+INFO  19:26:11,985 - #43 s1
+INFO  19:26:11,987 - #6 ;
+INFO  19:26:11,987 - #3 {
+INFO  19:26:11,988 - #11 void
+INFO  19:26:11,990 - #43 main
+INFO  19:26:11,990 - #12 (
+INFO  19:26:11,990 - #13 )
+INFO  19:26:11,990 - #3 {
+INFO  19:26:11,994 - #4 }
+INFO  19:26:11,995 - #4 }
+INFO  19:26:12,002 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    VarDeclList_v(
+      Type(
+       set
+      ) [Type]
+      VarDecl_var(
+       s1
+      ) [VarDecl_var]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  19:26:12,003 - =====================================================================
+INFO  19:26:12,015 - =====================================================================
+INFO  19:26:12,020 - Generisanje uspesno zavrseno!
